@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS Employee_Tracker;
-CREATE DATABASE Employee_Tracker;
+DROP DATABASE IF EXISTS employee_db;
+CREATE DATABASE employee_db;
 
-USE Employee_Tracker;
+USE employee_db;
 
 CREATE TABLE departments (
   id INT AUTO_INCREMENT NOT NULL,
